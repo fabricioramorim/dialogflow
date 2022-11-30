@@ -1,0 +1,168 @@
+{
+  "id": "1dbaf4a1-e4e3-4e1e-aae4-bcd0b7bb794a",
+  "name": "chatbot",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "salva_dados_say",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Olá! Que bom te ver por aqui ❤️\n\nPrimeiramente gostaria de saber seu nome, poderia nos informar?"
+          ],
+          "value": "$name",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "phone",
+          "dataType": "@sys.phone-number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Certo $name.\n\nPoderia nos deixar um telefone para contato? 📞"
+          ],
+          "value": "$phone",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "aceite",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "$name, gostaria de receber nossas novidades e promoções por SMS ou Whatsapp?"
+          ],
+          "value": "$aceite",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa ",
+          "userDefined": false
+        },
+        {
+          "text": "noite",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "599c8335-0dd4-4858-88bb-1f2931aa59e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa ",
+          "userDefined": false
+        },
+        {
+          "text": "tarde",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a0a6cce-901e-4614-9c42-269145848694",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bom dia",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8ab353f-4638-4479-b01c-ad7444313c40",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Oi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8a39d8a-2d28-4c1b-b98e-515260987d69",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Olá",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d356785f-3621-4a5c-98b4-b5829a754e57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ola",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7407efe2-368d-4de0-84eb-c8cff49d2d00",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

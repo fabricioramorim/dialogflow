@@ -1,0 +1,182 @@
+{
+  "id": "22b33007-eb58-434c-9a5d-615b6b2de798",
+  "name": "greet",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "salva_dados_say"
+  ],
+  "contexts": [
+    "salva_dados_say"
+  ],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "greet"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$name",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Maravilha!\n\nAbaixo deixarei listadas todas as nossas unidades... Pode escolher!"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "info",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  },
+                  "title": "Vacivitta Salto",
+                  "actionLink": "https://api.whatsapp.com/send?phone=5511941797060&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "actionLink": "https://api.whatsapp.com/send?phone=5511943394444&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações",
+                  "title": "Vacivitta Itu",
+                  "type": "info",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "actionLink": "https://api.whatsapp.com/send?phone=5519992521016&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações",
+                  "type": "info",
+                  "title": "Vacivitta Indaiatuba",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  },
+                  "type": "info",
+                  "actionLink": "https://api.whatsapp.com/send?phone=5513996256832&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações",
+                  "title": "Vacivitta Itanhaém"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Vacivitta Santos",
+                  "actionLink": "https://api.whatsapp.com/send?phone=5513991839252&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  },
+                  "type": "info"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "info",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn-icons-png.flaticon.com/512/174/174879.png"
+                    }
+                  },
+                  "title": "Vacivitta Dois Vizinhos",
+                  "actionLink": "https://api.whatsapp.com/send?phone=5546999241551&text=Olá!%20sou%20$name%20e%20gostaria%20de%20informações"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
