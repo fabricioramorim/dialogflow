@@ -1,7 +1,7 @@
 # Dialogflow
 Repositório contendo chatbot do DialogFlow
 
-Arquivos prontos para importação na ferramente DialogFlow do Google.
+Arquivos prontos para importação na ferramenta DialogFlow do Google.
 
 ## Descrição dos arquivos:
 
